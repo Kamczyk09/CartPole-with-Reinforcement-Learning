@@ -21,7 +21,7 @@ void cp_destroy(CartPole* cp) {
 void cp_reset(CartPole* cp) {
   cp->state[0] = 0.0f; // cart position
   cp->state[1] = 0.0f; // cart velocity
-  cp->state[2] = 0.0f; // pole angle
+  cp->state[2] = 3.14159f; // pole angle
   cp->state[3] = 0.0f; // pole angular velocity
 
   cp->mass_cart = 4.0f;
